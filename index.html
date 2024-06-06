@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+<body>
+
+  <div>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="./imagenes/62b3100bb223544c209f5e59 (1).png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mb-2" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Juegos Destacados</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Half-Life</a></li>
+                                <li><a class="dropdown-item" href="#">Garry's Mod</a></li>
+                                <li><a class="dropdown-item" href="#">SCP: Containment Breach</a></li>
+                                <li><a class="dropdown-item" href="#">GTA: San Andreas</a></li>
+                                <li><a class="dropdown-item" href="#">Age Of Empires IV</a></li>
+                                <li><a class="dropdown-item" href="#">Project Zomboid</a></li>
+                                <li><a class="dropdown-item" href="#">Plants vs. Zombies</a></li>
+                                <li><a class="dropdown-item" href="#">Stardew Valley</a></li>
+                                <li><a class="dropdown-item" href="#">Counter Strike 2</a></li>
+                            </ul>
+                        </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Géneros Populares</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Un solo jugador</a></li>
+                            <li><a class="dropdown-item" href="#">Primera Persona</a></li>
+                            <li><a class="dropdown-item" href="#">Deportes</a></li> <li><a class="dropdown-item" href="#">Estrategia</a></li> <li><a class="dropdown-item" href="#">Multijugador</a></li>
+                            <li><a class="dropdown-item" href="#">FPS</a></li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">°</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+  <div class="header">
+<ul>
+    <li><a href="#">Tienda</a></li>
+    <li><a href="#">Categorías</a></li>
+    <li><a href="%">Nuevo</a></li>
+    <li><a href="%">Noticias</a></li>
+</ul>
+  </div>
+  <h3 class="destacados">Destacados</h3>
+  <div class="d-flex justify-content-center">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenes/ageofempires4.jpg" class="d-block w-45" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/cs2.jpg" class="d-block w-45" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/undertale.jpg" class="d-block w-45" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="grid-container">
+    <div class="sidebar">
+        <h3>Recomendados</h3>
+        <ul>
+            <li><a href="#">Amigos</a></li>
+            <li><a href="#">Miembros</a></li>
+            <li><a href="#">Etiquetas</a></li>
+        </ul>
+        <h3>Explorar categorías</h3>
+        <ul>
+            <li><a href="#">Los más vendidos</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Próximamente</a></li>
+            <li><a href="#">Especales</a></li>
+            <li><a href="#">Realidad virtual</a></li>
+            <li><a href="#">Actualizados recientemente</a></li>
+        </ul>
+    </div>
+    <div class="content"> 
+        <div class="imagenes">
+        <h3> Half-Life</h3>
+        <img src="./imagenes/hl.jpg" alt="Half-Life" >
+    </div>
+    <div class="imagenes">
+        <h3>SCP:CB</h3>
+        <img src="./imagenes/scp.jpg" alt="SCP: Containment Breach" >
+    </div>
+    <div class="imagenes">
+        <h3>Stardew Valley</h3>
+        <img src="./imagenes/stardew.jpg" alt="Stardew Valley" >
+    </div>
+    <div class="imagenes">
+        <h3>GTA: San Andreas</h3>
+        <img src="./imagenes/gtasa.jpg" alt="GTA: San Andreas" >
+    </div>
+    <div class="imagenes">
+        <h3>Plants vs. Zombies</h3>
+        <img src="./imagenes/pvz.jpg" alt="Plants vs. Zombies" >
+    </div>
+    <div class="imagenes">
+        <h3>Project Zomboid</h3>
+        <img src="./imagenes/projectzomboid.jpg" alt="Project Zomboid">
+    </div>
+</div>
+    <div class="footer"> 
+        <p> &copy; 2024 Mi Sitio Web</p>
+        <p>
+            <a href="#about">Acerca de</a> |
+            <a href="#services">Servicios</a> |
+            <a href="#contact">Contacto</a>
+        </p>
+    </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>
